@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    font-family: "Arial", sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  .assessment-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .assessment-box {
+    width: 90%;
+    max-width: 800px;
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .assessment-header h1 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .progress-bar-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .progress-bar {
+    flex: 1;
+    height: 10px;
+    background: #eaeaea;
+    border-radius: 5px;
+    margin-right: 10px;
+    overflow: hidden;
+  }
+  
+  .progress-fill {
+    height: 100%;
+    background-color: #ff6f8e;
+    transition: width 0.3s ease;
+  }
+  
+  .progress-text {
+    font-size: 0.9rem;
+    color: #333;
+  }
+  
+  .questions-container .question {
+    margin-bottom: 20px;
+  }
+  
+  .questions-container .question p {
+    margin-bottom: 10px;
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .slider-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .slider-wrapper input[type="range"] {
+    flex: 1;
+    margin: 0 10px;
+    -webkit-appearance: none;
+    appearance: none;
+    background: #eaeaea;
+    height: 6px;
+    border-radius: 5px;
+  }
+  
+  .slider-wrapper input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 16px;
+    height: 16px;
+    background: #ff6f8e;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .slider-wrapper span {
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
+  .assessment-footer {
+    text-align: right;
+  }
+  
+  .next-button {
+    background: #ff6f8e;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .next-button:hover {
+    background-color: #ff4f6e;
+  }
+  
