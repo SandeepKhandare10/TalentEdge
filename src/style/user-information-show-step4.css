@@ -1,0 +1,35 @@
+.upgrad-logo{
+    max-width: 100px; /* Adjust the size as needed */
+    height: auto;
+    display: block;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+  }
+
+  .containerMini{
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 1050px;
+    padding: 2rem;
+    font-size: 14px;
+  }
+
+h5,h6{
+    text-align: left;
+}
+h3{
+  font-size: 18px;
+}
+h6{
+  font-size: 12px;
+}
