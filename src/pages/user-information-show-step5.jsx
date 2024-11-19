@@ -3,7 +3,7 @@ import '../style/UserInformationShowStep5.css';
 
 const UserInformationShowStep5 = () => {
   const NextPage=()=>{
-    window.location.href="/user-information-show-step6-2";
+    window.location.href="/user-information-show-step6-1";
   }
   return (
     <div className="container">
