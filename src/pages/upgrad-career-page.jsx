@@ -1,23 +1,17 @@
 import React from "react";
 import "../style/UpgradCareerPage.css";
-import UpgradLogo from "../images/upgrad.png"; // Adjust the path as necessary
+import UpgradLogo from "../images/upgrad.png";
 
 const UpgradCareerPage = () => {
-
-const NextPage=()=>{
-  window.location.href="/user-information-show-step4";
-}
-
+  const NextPage = () => {
+    window.location.href = "/user-information-show-step4";
+  };
   return (
     <div className="upgrad-career-page-container">
       <div className="upgrad-career-page-card">
         {/* Logo on top of the card */}
-        <img
-          src={UpgradLogo}
-          alt="upGrad Logo"
-          className="header-logo-image"
-        />
-        
+        <img src={UpgradLogo} alt="upGrad Logo" className="header-logo-image" />
+
         <header className="career-page-header">
           <hr className="header-line" />
           <h2>upGrad Career Planner</h2>
@@ -58,8 +52,8 @@ const NextPage=()=>{
             level over the next two to three years.
           </p>
         </main>
-        <footer className="career-page-footer">
-          <button className="career-page-button" onClick={NextPage}>Begin Now &raquo;</button>
+        <footer className="career-page-footer" onClick={NextPage}>
+          <button className="career-page-button">Begin Now &raquo;</button>
         </footer>
       </div>
     </div>
