@@ -62,3 +62,84 @@ h6 {
 .custom-white-text {
   color: white;
 }
+
+@media (max-width: 768px) {
+  .container {
+    padding: 1rem;
+    margin-top: 3rem;
+    margin-bottom: 3 rem;
+    height: auto;
+    margin-left: 0; /* Center the container on smaller screens */
+    text-align: left;
+    margin-left: 50px;
+    margin-right: 50px;
+    max-width: 400px;
+  }
+
+  .containerMini {
+    padding: 1rem; /* Reduce padding for compact design */
+    max-width: 100%; /* Utilize full width of the screen */
+    margin-left: 550px;
+  }
+
+  .upgrad-logo {
+    max-width: 80px; /* Resize logo for smaller screens */
+    margin: 0 auto 10px auto; /* Center logo */
+  }
+
+  .btn {
+    font-size: 12px; /* Smaller button text */
+    padding: 10px 12px; /* Compact padding */
+    margin-bottom: 10px; /* Adjust spacing between buttons */
+  }
+
+  .btn-primary {
+    background-color: #000; /* Retain primary button color */
+    font-size: 13px; /* Maintain readable size */
+  }
+
+  .d-flex {
+    flex-wrap: wrap; /* Ensure buttons wrap on smaller screens */
+    justify-content: center; /* Center-align buttons */
+    gap: 10px; /* Add spacing between buttons */
+  }
+
+  .custom-white-text {
+    color: white; /* Ensure white text remains clear */
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 0.5rem; /* Further reduce padding */
+    margin-top: 3 rem;
+    margin-bottom: 3 rem;
+  }
+
+  .containerMini {
+    padding: 0.8rem; /* Compact padding for very small screens */
+  }
+
+  .upgrad-logo {
+    max-width: 60px; /* Further reduce logo size */
+  }
+
+  h3 {
+    font-size: 14px; /* Smaller header font */
+    margin: 12px 0; /* Compact spacing */
+  }
+
+  h6 {
+    font-size: 12px; /* Smaller subsection headers */
+    margin: 16px 0 12px;
+  }
+
+  .btn {
+    font-size: 11px; /* Smaller button font */
+    padding: 8px 10px; /* Compact padding */
+  }
+
+  .d-flex {
+    gap: 8px; /* Reduce gap between buttons */
+  }
+}
