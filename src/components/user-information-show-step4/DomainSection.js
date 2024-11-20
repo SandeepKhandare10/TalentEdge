@@ -1,5 +1,4 @@
-import React from "react";
-
+import React, { useState } from "react";
 
 const DomainSection = () => {
   const domains = [
@@ -25,13 +24,23 @@ const DomainSection = () => {
     "Education & Training",
     "Other",
   ];
+  const [selectedDomain, setSelectedDomain] = useState(null);
 
+  const handleClick = (domain) => {
+    setSelectedDomain(domain); 
+  };
   return (
     <div className="mb-4">
       <h6>Current Domain</h6>
       <div className="d-flex flex-wrap gap-2">
         {domains.map((domain, index) => (
-          <button key={index} className="btn btn-outline-secondary">
+          <button
+            key={index}
+            className={`btn btn-outline-secondary ${
+              selectedDomain === domain ? "btn-primary text-white" : ""
+            }`}
+            onClick={() => handleClick(domain)} // Set selected domain on click
+          >
             {domain}
           </button>
         ))}
