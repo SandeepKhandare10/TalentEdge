@@ -6,7 +6,7 @@ import PreferredWorkLocation from "../components/user-information-show-step4/pre
 import UpgradLogo from "../images/upgrad.png";
 import "../style/user-information-show-step4.css";
 
-const CurrentWorkDetails = () => {
+const FutureCareerInterest  = () => {
   const NextPage = () => {
     window.location.href = "/user-information-show-step5";
   };
@@ -49,4 +49,4 @@ const CurrentWorkDetails = () => {
   );
 };
 
-export default CurrentWorkDetails;
+export default FutureCareerInterest;

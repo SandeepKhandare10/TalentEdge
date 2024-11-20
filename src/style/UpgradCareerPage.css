@@ -56,13 +56,77 @@
 
 .header-line {
   border: none;
-  border-top: 1px solid #000000; /* Customize color and thickness */
-  margin: 10px 0; /* Adjust spacing */
-  width: 100%; /* Full width of the container */
+  border-top: 1px solid #000000;
+  margin: 10px 0;
+  width: 100%;
 }
+
 .header-logo-image {
-  max-width: 100px; /* Adjust the size as needed */
+  max-width: 100px;
   height: auto;
   display: block;
-  margin: 0px 0 10px auto; /* Centers the image on the right */
+  margin: 0px 0 10px auto;
+}
+
+@media (max-width: 768px) {
+  .upgrad-career-page-container {
+    padding: 1rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  .upgrad-career-page-card {
+    width: 100%;
+    max-width: 100%;
+    padding: 1rem;
+  }
+
+  .career-page-header h2 {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .career-page-content p {
+    font-size: 13px;
+    margin-bottom: 0.8rem;
+  }
+
+  .career-page-footer {
+    text-align: center;
+  }
+
+  .career-page-button {
+    font-size: 14px;
+    padding: 0.5rem 1rem;
+  }
+
+  .header-logo-image {
+    max-width: 80px;
+    height: auto;
+    margin: 0 auto 10px auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .upgrad-career-page-card {
+    padding: 0.8rem;
+  }
+
+  .career-page-header h2 {
+    font-size: 14px;
+  }
+
+  .career-page-content p {
+    font-size: 12px;
+    margin-bottom: 0.6rem;
+  }
+
+  .career-page-button {
+    font-size: 12px;
+    padding: 0.4rem 0.8rem;
+  }
+
+  .header-logo-image {
+    max-width: 60px;
+  }
 }

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const DomainSection = () => {
+const TargetWorkDomain = () => {
   const domains = [
     "Digital Marketing",
     "Sales & Marketing",
@@ -52,4 +52,4 @@ const DomainSection = () => {
   );
 };
 
-export default DomainSection;
+export default TargetWorkDomain;
