@@ -1,10 +1,10 @@
 import React from "react";
-import DomainSection from "../components/user-information-show-step4/DomainSection";
-import CTCSection from "../components/user-information-show-step4/CTCSection";
-import RoleSection from "../components/user-information-show-step4/RoleSection";
-import LevelSection from "../components/user-information-show-step4/LevelSection";
+import DomainSection from "../components/user-information-show-step3/DomainSection";
+import CTCSection from "../components/user-information-show-step3/CTCSection";
+import RoleSection from "../components/user-information-show-step3/RoleSection";
+import LevelSection from "../components/user-information-show-step3/LevelSection";
 import UpgradLogo from "../images/upgrad.png";
-import "../style/user-information-show-step4.css";
+import "../style/user-information-show-step3.css";
 
 const CurrentWorkDetails = () => {
   const NextPage = () => {
