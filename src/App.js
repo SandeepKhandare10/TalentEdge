@@ -11,11 +11,12 @@ import CareerAssessment2 from "./pages/user-information-show-step6-2.jsx";
 import CareerAssessment1 from "./pages/user-information-show-step6-1.jsx";
 import Userinformationshowstep3 from "./pages/user-information-show-step3.jsx";
 import Userinformationshowstep4 from "./pages/user-information-show-step4.jsx";
+import StepFormOne from "./pages/StepFormOne/StepFormOne.js";
 
 function App() {
   return (
     <div>
-      <BrowserRouter>
+      {/* <BrowserRouter>
         <Routes>
           <Route path="/upgrad-career-page" element={<UpgradCareerPage />} />
           <Route path="/user-information-show-step3" element={<Userinformationshowstep3 />} /> 
@@ -28,7 +29,8 @@ function App() {
           <Route path="/user-information-show-step6-5" element={<CareerAssessment5 />} />
           <Route path="/success" element={<Success />} />
         </Routes>
-      </BrowserRouter>
+      </BrowserRouter> */}
+      <StepFormOne/>
     </div>
   );
 }
