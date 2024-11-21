@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import Card from "react-bootstrap/Card";
 import "./EducationalDetailsCard.css";
 import Button from "react-bootstrap/Button";
+import Component1 from "../Component1/Component1";
+import Component2 from "../Component2/Component2";
 
 const EducationalDetailsCard = () => {
   // State for Undergraduate and Postgraduate radio groups
@@ -25,20 +27,25 @@ const EducationalDetailsCard = () => {
             {/* Undergraduate Section */}
             <div className="user-info">
               <div className="degree">
-                <label className="label">Do you have an Undergraduate Degree?</label>
+                <label className="label">
+                  Do you have an Undergraduate Degree?
+                </label>
                 <div className="options">
                   <div className="container-of-options">
                     <div className="form-check">
                       <input
                         className="form-check-input"
                         type="radio"
-                        name="underGrad" // Group name for undergrad
+                        name="underGrad" 
                         id="underGradYes"
                         value="Yes"
                         checked={underGrad === "Yes"}
                         onChange={(e) => setUnderGrad(e.target.value)}
                       />
-                      <label className="form-check-label" htmlFor="underGradYes">
+                      <label
+                        className="form-check-label"
+                        htmlFor="underGradYes"
+                      >
                         Yes
                       </label>
                     </div>
@@ -49,7 +56,7 @@ const EducationalDetailsCard = () => {
                       <input
                         className="form-check-input"
                         type="radio"
-                        name="underGrad" // Group name for undergrad
+                        name="underGrad" 
                         id="underGradNo"
                         value="No"
                         checked={underGrad === "No"}
@@ -64,19 +71,26 @@ const EducationalDetailsCard = () => {
               </div>
             </div>
 
+            <div className="">
+                {underGrad === "Yes" && <Component1/>}
+                {underGrad === "No" && <Component2/>}    
+            </div>
+
             <hr />
 
             {/* Postgraduate Section */}
             <div className="user-info pg-degree">
               <div className="degree">
-                <label className="label">Do you have a Postgraduate Degree?</label>
+                <label className="label">
+                  Do you have a Postgraduate Degree?
+                </label>
                 <div className="options">
                   <div className="container-of-options">
                     <div className="form-check">
                       <input
                         className="form-check-input"
                         type="radio"
-                        name="postGrad" // Group name for postgrad
+                        name="postGrad" 
                         id="postGradYes"
                         value="Yes"
                         checked={postGrad === "Yes"}
@@ -93,7 +107,7 @@ const EducationalDetailsCard = () => {
                       <input
                         className="form-check-input"
                         type="radio"
-                        name="postGrad" // Group name for postgrad
+                        name="postGrad" 
                         id="postGradNo"
                         value="No"
                         checked={postGrad === "No"}
@@ -113,7 +127,12 @@ const EducationalDetailsCard = () => {
             {/* Submit Button */}
             <div className="user-info pg-degree">
               <div className="next-button">
-                <Button as="input" type="submit" className="submit" value="Next" />
+                <Button
+                  as="input"
+                  type="submit"
+                  className="submit"
+                  value="Next"
+                />
               </div>
             </div>
           </div>
