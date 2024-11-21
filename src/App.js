@@ -1,5 +1,4 @@
 import React from "react";
-import "@fontsource/poppins"; 
 import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import UpgradCareerPage from "./pages/upgrad-career-page";
