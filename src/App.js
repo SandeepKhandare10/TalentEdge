@@ -30,7 +30,7 @@ function App() {
           <Route path="/user-information-show-step6-5" element={<CareerAssessment5 />} />
           <Route path="/success" element={<Success />} />
           <Route path="/pageone" element={<PageOne/>}/>
-          <Route path="step-from-one"element={<StepFormOne/>}/>
+          <Route path="/step-from-one"element={<StepFormOne/>}/>
         </Routes>
       </BrowserRouter> }
       

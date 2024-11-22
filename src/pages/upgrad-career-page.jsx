@@ -4,7 +4,7 @@ import UpgradLogo from "../images/upgrad.png";
 
 const UpgradCareerPage = () => {
   const NextPage = () => {
-    window.location.href = "/user-information-show-step3";
+    window.location.href = "/step-from-one";
   };
   return (
     <div className="upgrad-career-page-container">

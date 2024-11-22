@@ -15,7 +15,7 @@ const countryCodes = [
   { code: "+33" },
 ];
 
-const StepFormOneCard = () => {
+const StepFormOneCard = ({NextPage}) => {
   return (
     <div className="master-container">
       <Card className="step-form-one-card">
@@ -114,7 +114,7 @@ const StepFormOneCard = () => {
 
             <div className="user-info">
               <div className="next-button">
-                <Button type="submit" className="submit">
+                <Button type="submit" className="submit" onClick={NextPage}>
                   Next
                 </Button>
               </div>
