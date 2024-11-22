@@ -31,7 +31,7 @@ const UserInformationShowStep5 = () => {
           </ul>
         </section>
         <footer className="footer">
-          <button className="next-button" onClick={NextPage}>Next ➤</button>
+          <button className="next-btn" onClick={NextPage}>Next ➤</button>
         </footer>
       </div>
     </div>
