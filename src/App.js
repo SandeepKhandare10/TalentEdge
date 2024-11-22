@@ -13,6 +13,7 @@ import CareerAssessment1 from "./pages/user-information-show-step6-1.jsx";
 import Userinformationshowstep3 from "./pages/user-information-show-step3.jsx";
 import Userinformationshowstep4 from "./pages/user-information-show-step4.jsx";
 import StepFormOne from "./pages/StepFormOne/StepFormOne.js";
+import PageOne from './pages/pdfPages/pageone.js';
 
 function App() {
   return (
