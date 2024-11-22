@@ -1,0 +1,91 @@
+.pdfpagetwo-container {
+    padding: 20px;
+  }
+  
+  .pdfpagetwo-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .pdfpagetwo-header h1 {
+    font-size: 2rem;
+  }
+  
+  .pdfpagetwo-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  /* Chart Section */
+  .pdfpagetwo-chart-section {
+    flex: 1;
+    max-width: 400px;
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .pdfpagetwo-chart {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: conic-gradient(
+      #7f3fbf 0deg 72deg,
+      #bf5fbf 72deg 144deg,
+      #df7f9f 144deg 216deg,
+      #ff9f7f 216deg 288deg,
+      #bf9f7f 288deg 360deg
+    );
+    margin: 0 auto;
+  }
+  
+  .pdfpagetwo-center-circle {
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    border-radius: 50%;
+    color: #7f3fbf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  /* Text Section */
+  .pdfpagetwo-text-section {
+    flex: 1;
+    max-width: 600px;
+    margin: 20px;
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+  /* Media Queries */
+  @media (max-width: 768px) {
+    .pdfpagetwo-content {
+      flex-direction: column;
+    }
+  
+    .pdfpagetwo-chart {
+      width: 250px;
+      height: 250px;
+    }
+  
+    .pdfpagetwo-center-circle {
+      width: 100px;
+      height: 100px;
+      font-size: 0.8rem;
+    }
+  
+    .pdfpagetwo-text-section {
+      font-size: 0.9rem;
+    }
+  }

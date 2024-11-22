@@ -1,0 +1,60 @@
+/* Container styling */
+.pdfpageone-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f8f8; /* Light gray */
+}
+
+/* Content box styling */
+.pdfpageone-content {
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    width: 90%;
+    max-width: 600px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+/* Logo styling */
+.pdfpageone-logo {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #ff4c4c; /* upGrad red */
+}
+
+/* Subtitle styling */
+.pdfpageone-subtitle {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #6a1b9a; /* Purple */
+}
+
+/* Footer text styling */
+.pdfpageone-footer {
+    margin-top: 40px;
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Media Query */
+@media (max-width: 768px) {
+    .pdfpageone-content {
+        padding: 15px;
+        width: 95%;
+    }
+
+    .pdfpageone-logo {
+        font-size: 2rem;
+    }
+
+    .pdfpageone-subtitle {
+        font-size: 1.25rem;
+    }
+
+    .pdfpageone-footer {
+        font-size: 0.9rem;
+    }
+}
