@@ -3,7 +3,7 @@ import './StepFormOne.css';
 
 const StepFormOne = () =>{
     const NextPage = () => {
-        window.location.href = "/user-information-show-step3";
+        window.location.href = "/educationaldetails";
     };
     return(
         <div className="StepFormCont">

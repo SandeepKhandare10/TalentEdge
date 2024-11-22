@@ -14,6 +14,7 @@ import Userinformationshowstep3 from "./pages/user-information-show-step3.jsx";
 import Userinformationshowstep4 from "./pages/user-information-show-step4.jsx";
 import StepFormOne from "./pages/StepFormOne/StepFormOne.js";
 import PageOne from './pages/pdfPages/pageone.js';
+import EducationalDetails from './pages/EducationalDetails/EducationalDetails.js'
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
           <Route path="/success" element={<Success />} />
           <Route path="/pageone" element={<PageOne/>}/>
           <Route path="/step-from-one"element={<StepFormOne/>}/>
+          <Route path="/educationaldetails" element={<EducationalDetails/>}/>
         </Routes>
       </BrowserRouter>
     </div>

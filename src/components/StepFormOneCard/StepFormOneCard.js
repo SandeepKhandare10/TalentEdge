@@ -16,6 +16,12 @@ const countryCodes = [
 ];
 
 const StepFormOneCard = ({NextPage}) => {
+  
+const onSubmit =(e)=>{
+  e.preventDefault();
+  NextPage();
+}
+
   return (
     <div className="master-container">
       <Card className="step-form-one-card">
@@ -27,7 +33,7 @@ const StepFormOneCard = ({NextPage}) => {
           />
         </div>
         <div className="heading">Basic Questionnaire</div>
-        <form className="form">
+        <form className="form" onSubmit={onSubmit}>
           <div className="form-container">
             {/* First Name and Last Name Fields */}
             <div className="user-info">
