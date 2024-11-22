@@ -1,0 +1,126 @@
+/* Global Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #ddd;
+  height: 90vh;
+}
+
+.hcontainer {
+  /* --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0; */
+  width: 100%;
+  /* padding-right: calc(var(--bs-gutter-x)* .5);
+  padding-left: calc(var(--bs-gutter-x)* .5); */
+  margin-right: auto;
+  margin-left: auto;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  height: 60vh;
+  /* padding: 20px;
+  /* box-sizing: border-box; */
+}
+
+.card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 70%;  /* Make the card take up 90% of the width */
+    
+  padding: 20px;
+  text-align: center;
+}
+
+.header h2 {
+  font-size: 1.5rem;
+  color: #020810;
+  margin-bottom: 20px;
+  
+}
+
+.instructions p {
+  font-weight: bold;
+  text-align: left;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+
+.instructions ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  text-align: left;
+  color: #555;
+}
+
+.footer {
+  margin-top: 20px;
+}
+
+.next-button {
+  background-color: #be1f39;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  float: left;
+}
+
+.next-button:hover {
+  background-color: #c02020;
+}
+
+/* Logo Styling */
+.logo {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.logo img {
+  width: 100px;
+  height: auto;
+}
+.ullist{
+  width: 80%;
+  margin: 0;
+}
+.lst{
+  margin-bottom: .25rem;
+}
+
+/* Media Queries for Smaller Screens */
+@media (max-width: 768px) {
+  .header h2 {
+    font-size: 1.2rem;  /* Adjust font size for smaller screens */
+  }
+
+  .next-button {
+    padding: 8px 16px;  /* Reduce button size on smaller screens */
+  }
+
+  .card {
+    padding: 15px;  /* Reduce padding for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .header h2 {
+    font-size: 1.1rem;  /* Adjust font size for very small screens */
+  }
+
+  .next-button {
+    padding: 6px 12px;  /* Further reduce button size */
+  }
+
+  .card {
+    width: 90%;  /* Make card take up full width on very small screens */
+    padding: 10px;  /* Further reduce padding */
+  }
+}
