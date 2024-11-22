@@ -1,0 +1,53 @@
+/* Container styling */
+.dob-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 3rem !important;
+  margin-bottom: 3rem !important;
+}
+
+/* Label styling */
+.dob-label {
+  font-size: 12px;
+  display: inline-block;
+}
+
+/* Dropdown group styling */
+.dob-dropdowns {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+/* Dropdown styling */
+.dob-dropdown {
+  width: 240px; 
+  height: 54px;
+  padding: 0 12px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px; 
+  appearance: none; 
+  position: relative;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); 
+  transition: all 0.3s ease;
+}
+
+/* Dropdown arrow styling */
+.dob-dropdown::after {
+  content: "";
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 0;
+  height: 0;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 6px solid #000;
+  pointer-events: none;
+}
