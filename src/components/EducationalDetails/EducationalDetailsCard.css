@@ -1,3 +1,346 @@
+<<<<<<< HEAD
+.master-container-edu {
+  margin-right: auto !important;
+  margin-left: auto !important;
+  flex: 0 0 auto;
+  width: 100%;
+}
+
+@media (min-width: 992px) {
+  .master-container-edu {
+    flex: 0 0 auto;
+    width: 75%;
+  }
+}
+
+@media (min-width: 768px) {
+  .master-container-edu {
+    flex: 0 0 auto;
+    width: 91.66666667%;
+  }
+}
+
+@media (min-width: 576px) {
+  .master-container-edu {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+}
+
+.edu-details-card {
+  background-color: #fff;
+  border-radius: 8px;
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
+  padding-right: 3rem !important;
+  padding-left: 3rem !important;
+  max-width: 100%;
+}
+
+.logo-edu {
+  border-bottom: 1px solid #ddd;
+  justify-content: flex-end !important;
+  display: flex !important;
+}
+
+.logo-img-edu {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+.heading-edu {
+  font-size: 18px;
+  font-weight: 600;
+  color: #424242;
+  margin-bottom: 0 !important;
+  margin-top: 1.5rem !important;
+}
+
+.form-container-edu {
+  margin-top: 1rem !important;
+}
+
+.user-info-edu {
+  margin-bottom: 3rem !important;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media (min-width: 992px) {
+  .degree-edu {
+    flex: 0 0 auto;
+    width: 41.66666667%;
+  }
+}
+@media (min-width: 768px) {
+  .degree-edu {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+}
+@media (min-width: 576px) {
+  .degree-edu {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+}
+.degree-edu {
+  flex: 0 0 auto;
+  width: 100%;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+
+.pg-degree {
+  margin-top: 3rem !important;
+}
+
+.label-edu {
+  margin-bottom: 10px;
+  font-size: 12px;
+  display: inline-block;
+}
+
+.text {
+  margin-left: 0.5rem;
+}
+
+.options-edu {
+  display: flex;
+  gap: 10px;
+}
+
+.container-of-options-edu {
+  padding: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 10px;
+  color: #000;
+  cursor: pointer;
+  opacity: 0.8;
+  transition: none;
+  font-size: 13px;
+  display: flex;
+  flex-direction: row;
+}
+
+/*
+.form-check-edu {
+  display: flex;
+  align-items: center; 
+  gap: 8px; 
+  margin-bottom: 8px;
+}
+
+.form-check-input-edu {
+  width: 16px; 
+  height: 16px;
+  appearance: none; 
+  border: 2px solid pink; 
+  border-radius: 50%; 
+  outline: none;
+  cursor: pointer;
+  display: inline-block;
+  margin: 0; 
+  position: relative;
+}
+
+.form-check-input-edu:checked::before {
+  content: "";
+  width: 8px; 
+  height: 8px;
+  background-color: pink; 
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.form-check-label-edu {
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+  display: inline-block;
+  cursor: pointer;
+  vertical-align: middle;
+}
+
+.container-of-options-edu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+*/
+
+
+/* General container styling for responsiveness */
+.container-of-options-edu {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    gap: 16px; /* Space between radio buttons */
+    flex-wrap: wrap; /* Ensure wrapping on smaller screens */
+  }
+  
+  /* Styling for the form-check container */
+  .form-check-edu {
+    display: flex;
+    align-items: center; /* Vertical center alignment */
+    gap: 8px; /* Space between the radio button and the label */
+    margin-bottom: 12px;
+  }
+  
+  /* Styling for the radio button */
+  .form-check-input-edu {
+    width: 16px; /* Size of the radio button */
+    height: 16px;
+    appearance: none; /* Remove default browser styling */
+    border: 2px solid pink; /* Pink border for the button */
+    border-radius: 50%; /* Make the button circular */
+    outline: none;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0; /* Remove default margin */
+    position: relative;
+  }
+  
+  .form-check-input-edu:checked::before {
+    content: '';
+    width: 8px; /* Inner dot size */
+    height: 8px;
+    background-color: pink; /* Pink color for the dot */
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  /* Styling for the label text */
+  .form-check-label-edu {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333; /* Text color */
+    display: inline-block;
+    cursor: pointer;
+    vertical-align: middle;
+  }
+  
+  /* Responsive styles for smaller screens */
+  @media (max-width: 768px) {
+    .container-of-options-edu {
+      flex-direction: column; /* Stack options vertically */
+      align-items: flex-start; /* Align to the left */
+      gap: 12px; /* Adjust spacing */
+    }
+  
+    .form-check-label-edu {
+      font-size: 13px; /* Slightly smaller font */
+    }
+  }
+  
+  /* Further adjustments for very small screens */
+  @media (max-width: 480px) {
+    .container-of-options-edu {
+      gap: 8px; /* Reduce spacing for small screens */
+    }
+  
+    .form-check-label-edu {
+      font-size: 12px; /* Smaller font for narrow devices */
+    }
+  
+    .form-check-input-edu {
+      width: 14px; /* Adjust button size */
+      height: 14px;
+    }
+  
+    .form-check-input-edu:checked::before {
+      width: 6px; /* Adjust inner dot size */
+      height: 6px;
+    }
+  }
+  
+
+.form-control-edu {
+  height: 50px;
+  font-size: 13px;
+  border-color: none;
+  font-weight: 600;
+  padding-left: 17px;
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0.375rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+hr {
+  margin: 1rem 0;
+  color: inherit;
+  border: 0;
+  border-top: 1px solid;
+  opacity: 0.25;
+}
+
+.next-button-edu {
+  flex: 0 0 auto;
+  width: 100%;
+  flex-shrink: 0;
+  width: 100%;
+  max-width: 100%;
+  background-color: #fff;
+  padding-left: 0px;
+}
+
+.next-button-edu:hover {
+  background-color: #fff;
+}
+
+@media (min-width: 992px) {
+  .next-button-edu {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+  }
+}
+
+@media (min-width: 768px) {
+  .next-button-edu {
+    flex: 0 0 auto;
+    width: 41.66666667%;
+  }
+}
+
+@media (min-width: 576px) {
+  .next-button-edu {
+    flex: 0 0 auto;
+    width: 41.66666667%;
+  }
+}
+
+.submit-edu {
+  background-color: #f85774 !important;
+  font-size: 18px;
+  padding: 13px 20px;
+  border: none;
+  color: #fff;
+}
+
+.submit-edu:hover {
+  background-color: #bb2d3b !important;
+}
+=======
 .master-container{
     margin-right: auto !important;
     margin-left: auto !important;
@@ -216,3 +559,4 @@ hr{
     padding: 13px 20px;
 }
 
+>>>>>>> master

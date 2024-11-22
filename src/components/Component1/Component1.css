@@ -1,0 +1,148 @@
+.master-container-compo1 {
+  display: flex;
+  margin-top: 3rem !important;
+  margin-bottom: 3rem !important;
+  flex: 0 0 auto;
+  flex-direction: row !important;
+  width: 100%;
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
+
+@media (min-width: 992px) {
+  .master-container-compo1 {
+    flex: 0 0 auto;
+    width: 75%;
+  }
+}
+
+@media (min-width: 768px) {
+  .master-container-compo1 {
+    flex: 0 0 auto;
+    width: 91.66666667%;
+  }
+}
+
+@media (min-width: 576px) {
+  .master-container-compo1 {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+}
+
+.left-container-compo1 {
+  flex: 0 0 auto;
+  width: 100%;
+  padding-right: 0.8rem;
+}
+
+@media (min-width: 992px) {
+  .left-container-compo1 {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+  }
+}
+
+@media (min-width: 768px) {
+  .left-container-compo1 {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+}
+
+@media (min-width: 576px) {
+  .left-container-compo1 {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+  }
+}
+
+.left-inner-container-compo1 {
+  position: relative;
+}
+
+.left-inner-container-compo1 .label-compo1 {
+  position: absolute;
+  background: #fff;
+  font-size: 12px;
+  top: -10px;
+  left: 10px;
+  padding: 0px 7px;
+  z-index: 99;
+}
+
+.label {
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+
+.form-control-compo1 {
+  height: 50px;
+  font-size: 0.8rem;
+  border-color: none;
+  font-weight: 700 !important;
+  padding-left: 17px;
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #424242;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0.375rem;
+  transition: border-color 0.15s ease-in-out;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+.form-control-compo1::placeholder {
+  font-size: 12px;
+  color: #adb5bd !important;
+  font-weight: normal;
+}
+
+.right-container-compo1 {
+  flex: 0 0 auto;
+  width: 100%;
+  padding-left: 0.8rem;
+}
+
+@media (min-width: 992px) {
+  .right-container-compo1 {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+  }
+}
+
+@media (min-width: 768px) {
+  .right-container-compo1 {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+}
+
+@media (min-width: 576px) {
+  .right-container-compo1 {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+  }
+}
+
+.right-inner-container-compo1 {
+  position: relative;
+}
+
+.right-inner-container-compo1 .label-compo1 {
+  position: absolute;
+  background: #fff;
+  font-size: 12px;
+  top: -10px;
+  left: 10px;
+  padding: 0px 7px;
+  z-index: 99;
+}
