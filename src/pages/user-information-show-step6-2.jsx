@@ -5,7 +5,7 @@ const CareerAssessment2 = () => {
   const NextPage = () => {
     window.location.href = "/user-information-show-step6-3";
   };
-  const [progress] = useState(20);
+  const [progress] = useState(40);
   const [rangeValues, setRangeValues] = useState({
     range1: 10,
     range2: 10,

@@ -379,15 +379,19 @@ hr {
 }
 
 .logo{
-    border-bottom: 1px solid #ddd;
+    /* border-bottom: 1px solid #ddd; */
     justify-content: flex-end !important;
     display: flex !important;
 }
 
 .logo-img{
-    max-width: 100%;
+  max-width: 100px;
+  height: auto;
+  display: block;
+  margin: 0px 0 10px auto;
+    /* max-width: 100%;
     height: auto;
-    vertical-align: middle;
+    vertical-align: middle; */
 }
 
 .heading{
